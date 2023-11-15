@@ -1,0 +1,5 @@
+m = int(input("введите число m\n"))
+n = int(input("введите число n\n"))
+if len(str(m)) > len(str(n)):print("в числе m больше чисел чем в n")
+if len(str(n)) > len(str(m)):print("в числе n больше чисел чем в m")
+if len(str(n)) == len(str(m)):print("в числах n и m одинаково кол-во чисел")
